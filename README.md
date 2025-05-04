@@ -2,6 +2,8 @@
 
 This repo contains two ROS 2 nodes (`talker` and `listener`) and a launch file for bridging integer messages (`std_msgs/msg/Int32`) between a PC (ROS 2) and an embedded microcontroller (micro-ROS over UDP6).
 
+The micro-ROS firmware (client side) is maintained in a separate repository.  [EmDonato/pubsub_doubleNode_wifi_uRos](https://github.com/EmDonato/pubsub_doubleNode_wifi_uRos.git)
+
 ---
 
 ## Table of Contents
