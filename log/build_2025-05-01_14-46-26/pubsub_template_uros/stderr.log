@@ -1,7 +1,0 @@
-[01m[K/home/genesis/Desktop/pubsub_template_uros/src/pubsub_template_uros/src/talker.cpp:[m[K In member function ‘[01m[Kvoid Talker::read_loop()[m[K’:
-[01m[K/home/genesis/Desktop/pubsub_template_uros/src/pubsub_template_uros/src/talker.cpp:57:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvalue[m[K’
-   57 |                 std::cout << "valore letto dalla pipe" [01;31m[Kvalue[m[K std::endl;
-      |                                                        [01;31m[K^~~~~[m[K
-gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

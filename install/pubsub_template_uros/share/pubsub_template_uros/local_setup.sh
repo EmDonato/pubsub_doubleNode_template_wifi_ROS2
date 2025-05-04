@@ -1,1 +1,0 @@
-/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros/ament_cmake_environment_hooks/local_setup.sh

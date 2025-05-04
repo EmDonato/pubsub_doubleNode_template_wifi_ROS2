@@ -1,1 +1,0 @@
-/home/genesis/Desktop/pubsub_template_uros/src/pubsub_template_uros/launch/launch_pubSub.py
