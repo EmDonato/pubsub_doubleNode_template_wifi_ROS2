@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros -- -j4 -l4
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.085s] [ 50%] Built target listener
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[9.126s] [100%] [32m[1mLinking CXX executable talker[0m
+[9.502s] [100%] Built target talker
+[9.523s] Invoked command in '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros -- -j4 -l4
+[9.542s] Invoking command in '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros
+[9.557s] -- Install configuration: ""
+[9.558s] -- Execute custom install script
+[9.559s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/lib/pubsub_template_uros/talker
+[9.560s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/lib/pubsub_template_uros/listener
+[9.561s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/launch/launch_pubSub.py
+[9.562s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/package_run_dependencies/pubsub_template_uros
+[9.563s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/parent_prefix_path/pubsub_template_uros
+[9.563s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/ament_prefix_path.sh
+[9.564s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/ament_prefix_path.dsv
+[9.564s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/path.sh
+[9.565s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/path.dsv
+[9.565s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.bash
+[9.566s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.sh
+[9.567s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.zsh
+[9.567s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.dsv
+[9.567s] -- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/package.dsv
+[9.586s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/packages/pubsub_template_uros
+[9.587s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/cmake/pubsub_template_urosConfig.cmake
+[9.587s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/cmake/pubsub_template_urosConfig-version.cmake
+[9.587s] -- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/package.xml
+[9.591s] Invoked command in '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros

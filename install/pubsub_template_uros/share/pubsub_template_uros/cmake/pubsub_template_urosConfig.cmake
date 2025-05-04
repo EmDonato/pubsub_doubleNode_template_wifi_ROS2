@@ -1,0 +1,1 @@
+/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros/ament_cmake_core/pubsub_template_urosConfig.cmake

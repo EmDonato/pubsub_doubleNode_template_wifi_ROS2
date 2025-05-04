@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/lib/pubsub_template_uros/talker
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/lib/pubsub_template_uros/listener
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/launch/launch_pubSub.py
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/package_run_dependencies/pubsub_template_uros
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/parent_prefix_path/pubsub_template_uros
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/ament_prefix_path.sh
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/path.sh
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/path.dsv
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.bash
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.sh
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.zsh
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.dsv
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/package.dsv
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/packages/pubsub_template_uros
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/cmake/pubsub_template_urosConfig.cmake
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/cmake/pubsub_template_urosConfig-version.cmake
+-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/package.xml

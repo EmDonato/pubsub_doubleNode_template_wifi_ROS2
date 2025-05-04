@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000750] (pubsub_template_uros) JobQueued: {'identifier': 'pubsub_template_uros', 'dependencies': OrderedDict()}
+[0.000819] (pubsub_template_uros) JobStarted: {'identifier': 'pubsub_template_uros'}
+[0.011397] (pubsub_template_uros) JobProgress: {'identifier': 'pubsub_template_uros', 'progress': 'cmake'}
+[0.012433] (pubsub_template_uros) JobProgress: {'identifier': 'pubsub_template_uros', 'progress': 'build'}
+[0.013518] (pubsub_template_uros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros', '--', '-j4', '-l4'], 'cwd': '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8137e9d767242d7cd404c91680bc9de'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/pubsub_template_uros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1228,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1228'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef3d7e16_c3d9_46ad_a12a_256588f03549'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CI1L52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.808'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8137e9d767242d7cd404c91680bc9de'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros:/opt/ros/humble')]), 'shell': False}
+[0.070884] (pubsub_template_uros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.090384] (pubsub_template_uros) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.090675] (pubsub_template_uros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.099349] (-) TimerEvent: {}
+[0.199672] (-) TimerEvent: {}
+[0.300025] (-) TimerEvent: {}
+[0.400507] (-) TimerEvent: {}
+[0.500922] (-) TimerEvent: {}
+[0.601486] (-) TimerEvent: {}
+[0.701837] (-) TimerEvent: {}
+[0.802220] (-) TimerEvent: {}
+[0.902564] (-) TimerEvent: {}
+[1.002949] (-) TimerEvent: {}
+[1.103339] (-) TimerEvent: {}
+[1.203684] (-) TimerEvent: {}
+[1.304069] (-) TimerEvent: {}
+[1.404442] (-) TimerEvent: {}
+[1.504783] (-) TimerEvent: {}
+[1.605134] (-) TimerEvent: {}
+[1.705497] (-) TimerEvent: {}
+[1.805844] (-) TimerEvent: {}
+[1.906198] (-) TimerEvent: {}
+[2.006540] (-) TimerEvent: {}
+[2.106889] (-) TimerEvent: {}
+[2.207261] (-) TimerEvent: {}
+[2.307634] (-) TimerEvent: {}
+[2.408042] (-) TimerEvent: {}
+[2.508447] (-) TimerEvent: {}
+[2.608839] (-) TimerEvent: {}
+[2.709247] (-) TimerEvent: {}
+[2.809633] (-) TimerEvent: {}
+[2.910020] (-) TimerEvent: {}
+[3.010445] (-) TimerEvent: {}
+[3.110836] (-) TimerEvent: {}
+[3.211251] (-) TimerEvent: {}
+[3.311652] (-) TimerEvent: {}
+[3.412072] (-) TimerEvent: {}
+[3.512499] (-) TimerEvent: {}
+[3.612908] (-) TimerEvent: {}
+[3.713306] (-) TimerEvent: {}
+[3.813706] (-) TimerEvent: {}
+[3.914170] (-) TimerEvent: {}
+[4.014558] (-) TimerEvent: {}
+[4.114951] (-) TimerEvent: {}
+[4.215351] (-) TimerEvent: {}
+[4.315734] (-) TimerEvent: {}
+[4.416113] (-) TimerEvent: {}
+[4.516509] (-) TimerEvent: {}
+[4.616892] (-) TimerEvent: {}
+[4.717281] (-) TimerEvent: {}
+[4.817679] (-) TimerEvent: {}
+[4.918061] (-) TimerEvent: {}
+[5.018466] (-) TimerEvent: {}
+[5.118866] (-) TimerEvent: {}
+[5.219274] (-) TimerEvent: {}
+[5.319679] (-) TimerEvent: {}
+[5.420084] (-) TimerEvent: {}
+[5.520562] (-) TimerEvent: {}
+[5.620931] (-) TimerEvent: {}
+[5.721348] (-) TimerEvent: {}
+[5.821771] (-) TimerEvent: {}
+[5.922168] (-) TimerEvent: {}
+[6.022602] (-) TimerEvent: {}
+[6.123029] (-) TimerEvent: {}
+[6.223470] (-) TimerEvent: {}
+[6.323839] (-) TimerEvent: {}
+[6.424241] (-) TimerEvent: {}
+[6.524621] (-) TimerEvent: {}
+[6.625014] (-) TimerEvent: {}
+[6.725459] (-) TimerEvent: {}
+[6.825855] (-) TimerEvent: {}
+[6.926261] (-) TimerEvent: {}
+[7.026655] (-) TimerEvent: {}
+[7.127040] (-) TimerEvent: {}
+[7.227479] (-) TimerEvent: {}
+[7.327880] (-) TimerEvent: {}
+[7.428276] (-) TimerEvent: {}
+[7.528692] (-) TimerEvent: {}
+[7.629106] (-) TimerEvent: {}
+[7.729562] (-) TimerEvent: {}
+[7.830038] (-) TimerEvent: {}
+[7.930534] (-) TimerEvent: {}
+[8.031023] (-) TimerEvent: {}
+[8.131517] (-) TimerEvent: {}
+[8.232012] (-) TimerEvent: {}
+[8.332531] (-) TimerEvent: {}
+[8.433013] (-) TimerEvent: {}
+[8.533517] (-) TimerEvent: {}
+[8.634023] (-) TimerEvent: {}
+[8.734529] (-) TimerEvent: {}
+[8.835149] (-) TimerEvent: {}
+[8.935609] (-) TimerEvent: {}
+[9.036065] (-) TimerEvent: {}
+[9.136548] (-) TimerEvent: {}
+[9.236994] (-) TimerEvent: {}
+[9.337460] (-) TimerEvent: {}
+[9.437893] (-) TimerEvent: {}
+[9.538319] (-) TimerEvent: {}
+[9.638751] (-) TimerEvent: {}
+[9.739180] (-) TimerEvent: {}
+[9.839625] (-) TimerEvent: {}
+[9.940078] (-) TimerEvent: {}
+[10.040547] (-) TimerEvent: {}
+[10.140980] (-) TimerEvent: {}
+[10.241460] (-) TimerEvent: {}
+[10.341893] (-) TimerEvent: {}
+[10.442426] (-) TimerEvent: {}
+[10.542926] (-) TimerEvent: {}
+[10.643445] (-) TimerEvent: {}
+[10.743927] (-) TimerEvent: {}
+[10.844457] (-) TimerEvent: {}
+[10.944947] (-) TimerEvent: {}
+[11.045463] (-) TimerEvent: {}
+[11.146008] (-) TimerEvent: {}
+[11.246512] (-) TimerEvent: {}
+[11.347000] (-) TimerEvent: {}
+[11.447511] (-) TimerEvent: {}
+[11.548019] (-) TimerEvent: {}
+[11.648575] (-) TimerEvent: {}
+[11.749063] (-) TimerEvent: {}
+[11.849588] (-) TimerEvent: {}
+[11.950073] (-) TimerEvent: {}
+[12.050567] (-) TimerEvent: {}
+[12.151052] (-) TimerEvent: {}
+[12.251549] (-) TimerEvent: {}
+[12.352019] (-) TimerEvent: {}
+[12.452522] (-) TimerEvent: {}
+[12.552982] (-) TimerEvent: {}
+[12.653497] (-) TimerEvent: {}
+[12.754002] (-) TimerEvent: {}
+[12.854487] (-) TimerEvent: {}
+[12.954904] (-) TimerEvent: {}
+[13.055329] (-) TimerEvent: {}
+[13.155747] (-) TimerEvent: {}
+[13.256172] (-) TimerEvent: {}
+[13.356628] (-) TimerEvent: {}
+[13.457074] (-) TimerEvent: {}
+[13.557476] (-) TimerEvent: {}
+[13.657897] (-) TimerEvent: {}
+[13.758278] (-) TimerEvent: {}
+[13.858672] (-) TimerEvent: {}
+[13.941954] (pubsub_template_uros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[13.958847] (-) TimerEvent: {}
+[14.059309] (-) TimerEvent: {}
+[14.159919] (-) TimerEvent: {}
+[14.260335] (-) TimerEvent: {}
+[14.360745] (-) TimerEvent: {}
+[14.461145] (-) TimerEvent: {}
+[14.561548] (-) TimerEvent: {}
+[14.628329] (pubsub_template_uros) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[14.644515] (pubsub_template_uros) CommandEnded: {'returncode': 0}
+[14.646269] (pubsub_template_uros) JobProgress: {'identifier': 'pubsub_template_uros', 'progress': 'install'}
+[14.660133] (pubsub_template_uros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros'], 'cwd': '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'genesis'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/genesis/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/genesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8137e9d767242d7cd404c91680bc9de'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/genesis/Desktop/pubsub_template_uros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'genesis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'genesis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/genesis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Genesis-VPCSE2C5E:@/tmp/.ICE-unix/1228,unix/Genesis-VPCSE2C5E:/tmp/.ICE-unix/1228'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef3d7e16_c3d9_46ad_a12a_256588f03549'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CI1L52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.808'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/genesis/Desktop/pubsub_template_uros/build/pubsub_template_uros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8137e9d767242d7cd404c91680bc9de'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros:/opt/ros/humble')]), 'shell': False}
+[14.661773] (-) TimerEvent: {}
+[14.673517] (pubsub_template_uros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.676417] (pubsub_template_uros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.677487] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/lib/pubsub_template_uros/talker\n'}
+[14.678383] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/lib/pubsub_template_uros/listener\n'}
+[14.681126] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/launch/launch_pubSub.py\n'}
+[14.681851] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/package_run_dependencies/pubsub_template_uros\n'}
+[14.682479] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/parent_prefix_path/pubsub_template_uros\n'}
+[14.683116] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/ament_prefix_path.sh\n'}
+[14.683901] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/ament_prefix_path.dsv\n'}
+[14.684493] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/path.sh\n'}
+[14.684891] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/environment/path.dsv\n'}
+[14.685305] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.bash\n'}
+[14.685684] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.sh\n'}
+[14.686077] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.zsh\n'}
+[14.686340] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/local_setup.dsv\n'}
+[14.686576] (pubsub_template_uros) StdoutLine: {'line': b'-- Symlinking: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/package.dsv\n'}
+[14.701013] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/ament_index/resource_index/packages/pubsub_template_uros\n'}
+[14.701533] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/cmake/pubsub_template_urosConfig.cmake\n'}
+[14.702033] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/cmake/pubsub_template_urosConfig-version.cmake\n'}
+[14.702540] (pubsub_template_uros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/genesis/Desktop/pubsub_template_uros/install/pubsub_template_uros/share/pubsub_template_uros/package.xml\n'}
+[14.705329] (pubsub_template_uros) CommandEnded: {'returncode': 0}
+[14.757438] (pubsub_template_uros) JobEnded: {'identifier': 'pubsub_template_uros', 'rc': 0}
+[14.759808] (-) EventReactorShutdown: {}
